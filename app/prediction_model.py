@@ -11,8 +11,8 @@ output_path = "F:/python_project/output"
 os.makedirs(output_path, exist_ok=True)
 
 # 读取数据
-train_data = pd.read_excel(r"D:\文档\Dr.wu\SAH基于NIS\I60主整合（整理数据）\6.模型确定\1.建模数据\7train.xlsx")
-validation_data = pd.read_excel(r"D:\文档\Dr.wu\SAH基于NIS\I60主整合（整理数据）\6.模型确定\1.建模数据\7validation.xlsx")
+train_data = pd.read_excel(r"https://raw.githubusercontent.com/Walkerdii/prediction-model/main/7train.xlsx")
+validation_data = pd.read_excel(r"https://raw.githubusercontent.com/Walkerdii/prediction-model/main/7validation.xlsx")
 
 # 定义分类变量和连续变量
 binary_vars = ["Died_during_hospitalization", "Hydrocephalus", "Cerebral_vasospasm_and_vasoconstriction",
